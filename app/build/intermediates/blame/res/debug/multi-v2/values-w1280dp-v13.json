@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1280dp-v13\\values-w1280dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\values-w1280dp\\dimens.xml",
+                    "from": {
+                        "startLines": "9,10,7,8,6,4,3,2,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "341,386,248,294,204,154,105,57,434,500",
+                        "endColumns": "43,44,44,45,42,46,47,46,64,59",
+                        "endOffsets": "380,426,288,335,242,196,148,99,494,555"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,144,189,235,278,325,373,420,485",
+                        "endColumns": "43,44,44,45,42,46,47,46,64,59",
+                        "endOffsets": "94,139,184,230,273,320,368,415,480,540"
+                    }
+                }
+            ]
+        }
+    ]
+}

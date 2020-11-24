@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الطقس</string>
+    <!-- Settings or Preference activity name -->
+    <string name="settings_activity_title">الإعدادات</string>
+
+    <!-- Action settings menu button -->
+    <string name="settings">@string/settings_activity_title</string>
+
+    <!-- Preference unit system title -->
+    <string name="pref_unit_title">نظام وحدات القياس</string>
+    <!-- Preference unit selection labels -->
+    <string name="pref_unit_metric_label">المتري (درجة مئوية - م/ث)</string>
+    <string name="pref_unit_imperial_label">الإمبراطوري (فهرنهايت - ميل/س)</string>
+    <!-- Preference keys -->
+    <string name="pref_units_key" translatable="false">unit_system</string>
+    <string name="pref_place_key" translatable="false">location</string>
+    <!-- Preference unit selection values -->
+    <string name="pref_unit_metric_value" translatable="false">Metric</string>
+    <string name="pref_unit_imperial_value" translatable="false">Imperial</string>
+
+    <!-- Unit systems -->
+    <string name="metric" translatable="false">Metric</string>
+    <string name="imperial" translatable="false">Imperial</string>
+
+    <!-- Unit symbols -->
+    <string name="symbol_celsius">°م</string>
+    <string name="symbol_fahrenheit">°ف</string>
+    <string name="symbol_metres_per_second">م/ث</string>
+    <string name="symbol_miles_per_hour">ميل/س</string>
+    <string name="symbol_kPa">ك.باسكال</string>
+    <string name="symbol_humidity">%</string>
+
+    <!-- Days -->
+    <string name="today">اليوم</string>
+    <string name="tomorrow">غداً</string>
+
+    <!-- Text for weather forecast parameters -->
+    <string name="day_temperature_text">%1$d \\\ %2$d %3$s</string>
+    <string name="hour_temperature_text">%1$d %2$s</string>
+    <string name="pressure_text">%1$d %2$s</string>
+    <string name="humidity_text">%1$d %2$s</string>
+    <string name="wind_speed_text">%1$d %2$s</string>
+
+    <!-- ImageViews' content description for accessibility -->
+    <string name="pressure">الضغط</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="wind_speed">سرعة الرياح</string>
+
+    <string name="dialog_title_location_permission">إذن تحديد موقع جهازك</string>
+    <string name="dialog_message_location_permission">للإستمرار يحتاج التطبيق لإذن تحديد موقع الجهاز من إعدادات جهازك</string>
+    <string name="dialog_continue">استمرار</string>
+    <string name="dialog_cancel">الغاء</string>
+    <string name="dialog_message_enable_location">للإستمرار يجب تفعيل محدد المواقع GPS او يمكنك اختيار موقعك يدوياً </string>
+    <string name="dialog_title_enable_location">تفعيل محدد المواقع GPS</string>
+    <string name="dialog_pos_enable_location">تفعيل</string>
+    <string name="dialog_neg_enable_location">ابحث يدوياً</string>
+    <string name="location_management">المكان الحالي</string>
+    <string name="search_for_your_location_name">ابحث عن اسم بلدك</string>
+
+    <string name="no_location">المكان الحالي: \nلم يحدد</string>
+    <string name="location_name">المكان الحالي: \n%s, %s, %s</string>
+    <string name="switch_auto_detect">تحديد الموقع تلقائياً</string>
+    <string name="error_msg_permission_and_providers">يجب السماح للتطبيق بتحديد المكان وتفعيل محددات الموقع</string>
+    <string name="msg_no_connection">لا يوجد إتصال بالإنترنت</string>
+    <string name="msg_cant_find_location">فشل في تحديد الموقع</string>
+
+    <!-- Weather conditions -->
+    <string name="clear">صافي</string>
+    <string name="clear_sky">سماء صافية</string>
+    <string name="Clouds">سحابي</string>
+    <string name="few_clouds">سحاب قليل</string>
+    <string name="overcast_clouds">غائم</string>
+    <string name="broken_clouds">سحاب متقطع</string>
+    <string name="drizzle">قطرات أمطار</string>
+    <string name="light_drizzle">قطرات خفيف</string>
+    <string name="heavy_drizzle">قطرات شديده</string>
+    <string name="shower_drizzle">وابل من القطرات</string>
+    <string name="drizzle_rain">وابل قطرات كثيفه</string>
+    <string name="rain">ممطر</string>
+    <string name="light_rain">أمطار خفيفة</string>
+    <string name="moderate_rain">أمطار معتدلة</string>
+    <string name="shower_rain">وابل من الأمطار </string>
+    <string name="freezing_rain">أمطار مجمده</string>
+    <string name="heavy_rain">أمطار شديدة</string>
+    <string name="snow">مثلج</string>
+    <string name="light_snow">ثلج خفيف</string>
+    <string name="heavy_snow">ثلج شديد</string>
+    <string name="shower_snow">وابل من الثلج</string>
+    <string name="rain_and_snow">مطر مع الثلج</string>
+    <string name="moderate_snow">ثلج معتدل</string>
+    <string name="thunderstorm">عاصفة رعدية</string>
+    <string name="thunderstorm_light_rain">عاصفة رعدية مع أمطار خفيفة</string>
+    <string name="thunderstorm_heavy_rain">عاصفة رعدية مع أمطار شديدة</string>
+    <string name="thunderstorm_rain">عاصفة رعدية ممطرة</string>
+    <string name="heavy_thunderstorm">عاصفة رعدية شديدة</string>
+    <string name="light_thunderstorm">عاصفة رعدية خفيفة</string>
+    <string name="tornado">إعصار</string>
+    <string name="foggy">ضبابي</string>
+    <string name="haze">ضباب</string>
+    <!--  -->
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Forecasty</string>
+    <!-- Settings or Preference activity name -->
+    <string name="settings_activity_title">Settings</string>
+
+    <!-- Action settings menu button -->
+    <string name="settings">@string/settings_activity_title</string>
+
+    <!-- Preference unit system title -->
+    <string name="pref_unit_title">Unit system</string>
+    <!-- Preference unit selection labels -->
+    <string name="pref_unit_metric_label">Metric (Celsius - kpa - mps)</string>
+    <string name="pref_unit_imperial_label">Imperial (Fahrenheit - kpa - miph)</string>
+    <!-- Preference keys -->
+    <string name="pref_units_key" translatable="false">unit_system</string>
+    <string name="pref_place_key" translatable="false">location</string>
+
+    <!-- Preference unit selection keys and values -->
+    <string name="pref_unit_metric_value" translatable="false">Metric</string>
+    <string name="pref_unit_imperial_value" translatable="false">Imperial</string>
+
+    <!-- Unit systems -->
+    <string name="metric" translatable="false">Metric</string>
+    <string name="imperial" translatable="false">Imperial</string>
+
+    <!-- Unit symbols -->
+    <string name="symbol_celsius">°C</string>
+    <string name="symbol_fahrenheit">°F</string>
+    <string name="symbol_metres_per_second">m/s</string>
+    <string name="symbol_miles_per_hour">mi/h</string>
+    <string name="symbol_kPa">kPa</string>
+    <string name="symbol_humidity">%</string>
+
+    <!-- Days -->
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Text for weather forecast parameters -->
+    <string name="day_temperature_text">%1$d / %2$d %3$s</string>
+    <string name="hour_temperature_text">%1$d %2$s</string>
+    <string name="pressure_text">%1$d %2$s</string>
+    <string name="humidity_text">%1$d %2$s</string>
+    <string name="wind_speed_text">%1$d %2$s</string>
+
+    <!-- ImageViews' content description for accessibility -->
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind speed</string>
+
+    <string name="dialog_title_location_permission">Location permission</string>
+    <string name="dialog_message_location_permission">To continue, enable location permission for the app from your device\'s settings</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_message_enable_location">To continue, turn on location provider from settings, otherwise you can pick your location manually.</string>
+    <string name="dialog_title_enable_location">Enable location provider</string>
+    <string name="dialog_pos_enable_location">Enable</string>
+    <string name="dialog_neg_enable_location">Pick Location</string>
+    <string name="location_management">Location</string>
+    <string name="search_for_your_location_name">Search for your location name</string>
+
+    <string name="no_location">Current location: \nNo location</string>
+    <string name="location_name">Current location: \n%s, %s, %s</string>
+    <string name="switch_auto_detect">Auto detect location</string>
+    <string name="error_msg_permission_and_providers">Enable location permission and providers first</string>
+    <string name="msg_no_connection">No network connection</string>
+    <string name="msg_cant_find_location">Can\'t find location</string>
+
+    <!-- Weather conditions -->
+    <string name="clear">Clear</string>
+    <string name="clear_sky">clear sky</string>
+    <string name="Clouds">Clouds</string>
+    <string name="few_clouds">few clouds</string>
+    <string name="overcast_clouds">overcast clouds</string>
+    <string name="broken_clouds">broken clouds</string>
+    <string name="drizzle">Drizzle</string>
+    <string name="light_drizzle">light drizzle</string>
+    <string name="heavy_drizzle">heavy drizzle</string>
+    <string name="shower_drizzle">shower drizzle</string>
+    <string name="drizzle_rain">drizzle rain</string>
+    <string name="rain">Rain</string>
+    <string name="light_rain">light rain</string>
+    <string name="moderate_rain">moderate rain</string>
+    <string name="shower_rain">shower rain</string>
+    <string name="freezing_rain">freezing rain</string>
+    <string name="heavy_rain">heavy rain</string>
+    <string name="snow">Snow</string>
+    <string name="light_snow">light snow</string>
+    <string name="heavy_snow">heavy snow</string>
+    <string name="shower_snow">shower snow</string>
+    <string name="rain_and_snow">rain and snow</string>
+    <string name="moderate_snow">moderate snow</string>
+    <string name="thunderstorm">Thunderstorm</string>
+    <string name="thunderstorm_light_rain">thunderstorm with light rain</string>
+    <string name="thunderstorm_heavy_rain">thunderstorm with heavy rain</string>
+    <string name="thunderstorm_rain">thunderstorm with rain</string>
+    <string name="heavy_thunderstorm">heavy thunderstorm</string>
+    <string name="light_thunderstorm">light thunderstorm</string>
+    <string name="tornado">Tornado</string>
+    <string name="foggy">Foggy</string>
+    <string name="haze">haze</string>
+    <!--  -->
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

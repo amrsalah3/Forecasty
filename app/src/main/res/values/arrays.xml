@@ -1,0 +1,14 @@
+<resources>
+    <!-- Unit System Preference -->
+    <string-array name="pref_unit_entries">
+        <item>@string/pref_unit_metric_label</item>
+        <item>@string/pref_unit_imperial_label</item>
+    </string-array>
+
+    <string-array name="pref_unit_values">
+        <item>@string/pref_unit_metric_value</item>
+        <item>@string/pref_unit_imperial_value</item>
+    </string-array>
+
+
+</resources>

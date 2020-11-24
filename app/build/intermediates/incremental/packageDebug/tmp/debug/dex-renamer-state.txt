@@ -1,0 +1,13 @@
+#Tue Nov 24 12:56:34 EET 2020
+path.3=classes1000.dex
+path.2=classes1000.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=C\:\\Users\\Amr\\.gradle\\caches\\transforms-2\\files-2.1\\bbb50233c152684990a5ae90f01b3299\\desugar_jdk_libs_configuration-1.1.1\\classes1000.dex
+base.2=C\:\\Users\\Amr\\.gradle\\caches\\transforms-2\\files-2.1\\77af3eb42a37c8fcc69fb5cd59f30114\\desugar_jdk_libs-1.1.1\\classes1000.dex
+base.1=D\:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.0=D\:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex

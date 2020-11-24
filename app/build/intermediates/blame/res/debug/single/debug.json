@@ -1,0 +1,734 @@
+[
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\font_acme.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\font\\acme.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_scatter_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_scatter_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_drizzle.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_drizzle.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_drizzle.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_drizzle.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_shower_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_shower_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_few_clouds_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_few_clouds_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_storm_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_storm_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_mist.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_mist.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_wind.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_wind.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_splash_screen.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-xxhdpi\\ic_splash_screen.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_clear_sky_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_clear_sky_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_humidity.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_humidity.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_mist.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_mist.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_example_appwidget_preview.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-nodpi\\example_appwidget_preview.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_few_clouds_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_few_clouds_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_tornado.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_tornado.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_broken_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_broken_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_few_clouds_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_few_clouds_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_scatter_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_scatter_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_place_item.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\place_item.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_splash_screen.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-mdpi\\ic_splash_screen.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_humidity.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_humidity.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_mist.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_mist.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_few_clouds_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_few_clouds_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_storm_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_storm_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_scatter_clouds.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_scatter_clouds.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_clear_sky_n.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear_sky_n.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_storm_d.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_storm_d.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_storm_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_storm_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_snow.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_snow.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_snow.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_snow.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_shower_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_shower_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_wind.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_wind.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_wind.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_wind.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_storm_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_storm_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_drizzle.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_drizzle.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_scatter_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_scatter_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_storm_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_storm_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_drizzle.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_drizzle.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_weather_day_detail_item.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\weather_day_detail_item.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_storm_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_storm_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_shower_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_shower_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_humidity.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_humidity.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_humidity.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_humidity.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_few_clouds_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_few_clouds_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_storm_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_storm_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_scatter_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_scatter_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_storm_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_storm_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_clear_sky_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_clear_sky_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pressure.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_pressure.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_item_selector.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable\\list_item_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pick_place.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\activity_pick_place.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_drizzle.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_drizzle.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\xml_fragment_preferences.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\xml\\fragment_preferences.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_drizzle.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_drizzle.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_storm_rain.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_storm_rain.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_scatter_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_scatter_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_broken_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_broken_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_few_clouds_d.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_few_clouds_d.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_storm_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_storm_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_master_forecast.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\fragment_master_forecast.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_storm_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_storm_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_clear_sky_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_clear_sky_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_tornado.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_tornado.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_few_clouds_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_few_clouds_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pressure.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_pressure.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_humidity.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_humidity.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_snow.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_snow.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_search.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_broken_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_broken_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_few_clouds_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_few_clouds_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_few_clouds_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_few_clouds_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_clear_sky_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_clear_sky_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_shower_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_shower_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_search.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_clear_sky_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear_sky_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_activity_main.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout-sw600dp\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_clear_sky_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_clear_sky_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_detail_forecast.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\fragment_detail_forecast.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_search.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-hdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_snow.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_snow.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_tornado.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_tornado.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_broken_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_broken_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_shower_rain.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_shower_rain.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_storm_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_storm_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_wind.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_wind.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_clear_sky_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_clear_sky_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_snow.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_snow.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_tornado.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_tornado.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_storm_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_storm_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_tornado.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_tornado.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_pressure.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pressure.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_scatter_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_scatter_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_snow.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_snow.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_search.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_broken_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_broken_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_shower_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_shower_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_mist.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_mist.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_clear_sky_d.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear_sky_d.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_mist.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_mist.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_tornado.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_tornado.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_few_clouds_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_few_clouds_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_drizzle.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_drizzle.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_shower_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_shower_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_pressure.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_pressure.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_splash_screen.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_splash_screen.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_screen_drawable.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable\\splash_screen_drawable.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_storm_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_storm_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_splash_screen.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-hdpi\\ic_splash_screen.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_clear_sky_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_clear_sky_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_few_clouds_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_few_clouds_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_mist.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_mist.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_tornado.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_tornado.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pressure.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_pressure.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_wind.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_wind.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_storm_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_storm_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_splash_screen.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-xhdpi\\ic_splash_screen.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_storm_n.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_storm_n.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_clear_sky_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear_sky_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_clear_sky_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_clear_sky_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_humidity.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_humidity.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_activity.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_storm_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_storm_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_search.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-mdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_wind.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_wind.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_weather_today_item.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\weather_today_item.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_humidity.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_humidity.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_clear_sky_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_clear_sky_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_broken_clouds.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_broken_clouds.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_pressure.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_pressure.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_pressure.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_pressure.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_few_clouds_n.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_few_clouds_n.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_mist.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_mist.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_storm_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_storm_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_snow.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_snow.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_few_clouds_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_few_clouds_n.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_wind.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_wind.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_search.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_storm_rain.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_storm_rain.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_clear_sky_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_clear_sky_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\layout_weather_item.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\layout\\weather_item.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_header_item_selector.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable\\list_header_item_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_rain.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_rain.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_broken_clouds.xml.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_broken_clouds.xml"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_search.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\drawable-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_few_clouds_d.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_few_clouds_d.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android_Projects\\Forecasty\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_storm_n.png.flat",
+        "source": "D:\\Android_Projects\\Forecasty\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_storm_n.png"
+    }
+]

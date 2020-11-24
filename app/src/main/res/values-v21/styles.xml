@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- App's splash screen theme -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/acme</item>
+        <item name="colorControlHighlight">@color/colorPrimaryLight</item>
+    </style>
+
+    <!-- List Item click effect (Ripple or Selector) -->
+    <style name="ListItemClickEffect">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="colorControlHighlight">@color/colorPrimaryLight</item>
+    </style>
+    <!-- List Header Item (Today) click effect (Ripple or Selector) -->
+    <style name="ListHeaderItemClickEffect" parent="ListItemClickEffect">
+        <item name="android:background">@color/colorPrimaryLight</item>
+    </style>
+
+    <!-- TextViews style in weather list items -->
+    <style name="ListItemTextViewsSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_medium</item>
+        <item name="android:layout_marginLeft">@dimen/margin_medium</item>
+        <item name="android:layout_marginEnd">@dimen/margin_medium</item>
+        <item name="android:layout_marginRight">@dimen/margin_medium</item>
+        <item name="android:textAlignment" tools:ignore="NewApi">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ListItemTextViewsMedium" parent="ListItemTextViewsSmall">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="ListItemTextViewsLarge" parent="ListItemTextViewsSmall">
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+
+</resources>

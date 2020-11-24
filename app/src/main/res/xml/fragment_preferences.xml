@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:defaultValue="@string/pref_unit_metric_value"
+        app:entries="@array/pref_unit_entries"
+        app:entryValues="@array/pref_unit_values"
+        app:key="@string/pref_units_key"
+        app:title="@string/pref_unit_title"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>

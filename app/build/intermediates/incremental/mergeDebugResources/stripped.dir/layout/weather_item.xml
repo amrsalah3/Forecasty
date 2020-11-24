@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/ListItemClickEffect">
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H, 1:1"
+        app:layout_constraintEnd_toStartOf="@+id/left_guideline_weather_future_item"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription"
+        tools:srcCompat="@drawable/ic_clear_sky_d" />
+
+    <TextView
+        android:id="@+id/tv_condition"
+        style="@style/ListItemTextViewsMedium"
+        app:layout_constraintBottom_toTopOf="@+id/tv_temperature"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/right_guideline_weather_future_item"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Clear" />
+
+    <TextView
+        android:id="@+id/tv_temperature"
+        style="@style/ListItemTextViewsMedium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_condition"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tv_condition"
+        app:layout_constraintTop_toBottomOf="@+id/tv_condition"
+        tools:text="30 / 25 °C" />
+
+
+    <TextView
+        android:id="@+id/tv_time"
+        style="@style/ListItemTextViewsMedium"
+        android:layout_marginStart="@dimen/margin_large"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginEnd="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginBottom="@dimen/margin_large"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_icon"
+        app:layout_constraintEnd_toStartOf="@+id/right_guideline_weather_future_item"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/left_guideline_weather_future_item"
+        app:layout_constraintTop_toTopOf="@+id/iv_icon"
+        tools:text="Friday" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guideline_weather_future_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.24" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_guideline_weather_future_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.72" />
+</androidx.constraintlayout.widget.ConstraintLayout>
