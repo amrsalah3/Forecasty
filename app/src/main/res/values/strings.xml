@@ -47,24 +47,6 @@
     <string name="humidity">Humidity</string>
     <string name="wind_speed">Wind speed</string>
 
-    <string name="dialog_title_location_permission">Location permission</string>
-    <string name="dialog_message_location_permission">To continue, enable location permission for the app from your device\'s settings</string>
-    <string name="dialog_continue">Continue</string>
-    <string name="dialog_cancel">Cancel</string>
-    <string name="dialog_message_enable_location">To continue, turn on location provider from settings, otherwise you can pick your location manually.</string>
-    <string name="dialog_title_enable_location">Enable location provider</string>
-    <string name="dialog_pos_enable_location">Enable</string>
-    <string name="dialog_neg_enable_location">Pick Location</string>
-    <string name="location_management">Location</string>
-    <string name="search_for_your_location_name">Search for your location name</string>
-
-    <string name="no_location">Current location: \nNo location</string>
-    <string name="location_name">Current location: \n%s, %s, %s</string>
-    <string name="switch_auto_detect">Auto detect location</string>
-    <string name="error_msg_permission_and_providers">Enable location permission and providers first</string>
-    <string name="msg_no_connection">No network connection</string>
-    <string name="msg_cant_find_location">Can\'t find location</string>
-
     <!-- Weather conditions -->
     <string name="clear">Clear</string>
     <string name="clear_sky">clear sky</string>
@@ -98,7 +80,23 @@
     <string name="tornado">Tornado</string>
     <string name="foggy">Foggy</string>
     <string name="haze">haze</string>
-    <!--  -->
-    <string name="appwidget_text">EXAMPLE</string>
-    <string name="add_widget">Add widget</string>
+
+    <string name="dialog_title_location_permission">Location permission</string>
+    <string name="dialog_message_location_permission">To continue, enable location permission for the app from your device\'s settings</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_message_enable_location">To continue, turn on location provider from settings, otherwise you can pick your location manually.</string>
+    <string name="dialog_title_enable_location">Enable location provider</string>
+    <string name="dialog_pos_enable_location">Enable</string>
+    <string name="dialog_neg_enable_location">Pick Location</string>
+    <string name="location_management">Location</string>
+    <string name="search_for_your_location_name">Search for your location name</string>
+    <string name="no_location">Current location: \nNo location</string>
+    <string name="location_name">Current location: \n%s, %s, %s</string>
+    <string name="switch_auto_detect">Auto detect location</string>
+    <string name="error_msg_permission_and_providers">Enable location permission and providers first</string>
+    <string name="msg_no_connection">No network connection</string>
+    <string name="msg_cant_find_location">Can\'t find location</string>
+    <string name="no_hourly_forecasts_yet">No hourly forecasts yet.</string>
+
 </resources>

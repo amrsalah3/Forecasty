@@ -47,28 +47,10 @@
     <string name="humidity">الرطوبة</string>
     <string name="wind_speed">سرعة الرياح</string>
 
-    <string name="dialog_title_location_permission">إذن تحديد موقع جهازك</string>
-    <string name="dialog_message_location_permission">للإستمرار يحتاج التطبيق لإذن تحديد موقع الجهاز من إعدادات جهازك</string>
-    <string name="dialog_continue">استمرار</string>
-    <string name="dialog_cancel">الغاء</string>
-    <string name="dialog_message_enable_location">للإستمرار يجب تفعيل محدد المواقع GPS او يمكنك اختيار موقعك يدوياً </string>
-    <string name="dialog_title_enable_location">تفعيل محدد المواقع GPS</string>
-    <string name="dialog_pos_enable_location">تفعيل</string>
-    <string name="dialog_neg_enable_location">ابحث يدوياً</string>
-    <string name="location_management">المكان الحالي</string>
-    <string name="search_for_your_location_name">ابحث عن اسم بلدك</string>
-
-    <string name="no_location">المكان الحالي: \nلم يحدد</string>
-    <string name="location_name">المكان الحالي: \n%s, %s, %s</string>
-    <string name="switch_auto_detect">تحديد الموقع تلقائياً</string>
-    <string name="error_msg_permission_and_providers">يجب السماح للتطبيق بتحديد المكان وتفعيل محددات الموقع</string>
-    <string name="msg_no_connection">لا يوجد إتصال بالإنترنت</string>
-    <string name="msg_cant_find_location">فشل في تحديد الموقع</string>
-
     <!-- Weather conditions -->
     <string name="clear">صافي</string>
     <string name="clear_sky">سماء صافية</string>
-    <string name="Clouds">سحابي</string>
+    <string name="Clouds">غائم</string>
     <string name="few_clouds">سحاب قليل</string>
     <string name="overcast_clouds">غائم</string>
     <string name="broken_clouds">سحاب متقطع</string>
@@ -98,7 +80,23 @@
     <string name="tornado">إعصار</string>
     <string name="foggy">ضبابي</string>
     <string name="haze">ضباب</string>
-    <!--  -->
-    <string name="appwidget_text">EXAMPLE</string>
-    <string name="add_widget">Add widget</string>
+
+    <string name="dialog_title_location_permission">إذن تحديد موقع جهازك</string>
+    <string name="dialog_message_location_permission">للإستمرار يحتاج التطبيق لإذن تحديد موقع الجهاز من إعدادات جهازك</string>
+    <string name="dialog_continue">استمرار</string>
+    <string name="dialog_cancel">الغاء</string>
+    <string name="dialog_message_enable_location">للإستمرار يجب تفعيل محدد المواقع GPS او يمكنك اختيار موقعك يدوياً </string>
+    <string name="dialog_title_enable_location">تفعيل محدد المواقع GPS</string>
+    <string name="dialog_pos_enable_location">تفعيل</string>
+    <string name="dialog_neg_enable_location">ابحث يدوياً</string>
+    <string name="location_management">المكان الحالي</string>
+    <string name="search_for_your_location_name">ابحث عن اسم بلدك</string>
+    <string name="no_location">المكان الحالي: \nلم يحدد</string>
+    <string name="location_name">المكان الحالي: \n%s, %s, %s</string>
+    <string name="switch_auto_detect">تحديد الموقع تلقائياً</string>
+    <string name="error_msg_permission_and_providers">يجب السماح للتطبيق بتحديد المكان وتفعيل محددات الموقع</string>
+    <string name="msg_no_connection">لا يوجد إتصال بالإنترنت</string>
+    <string name="msg_cant_find_location">فشل في تحديد الموقع</string>
+    <string name="no_hourly_forecasts_yet">لا يوجد توقعات بالساعة حتى الآن</string>
+
 </resources>

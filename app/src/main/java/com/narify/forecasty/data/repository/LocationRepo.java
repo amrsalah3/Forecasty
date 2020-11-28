@@ -73,6 +73,7 @@ public class LocationRepo {
 
         LocationRequest request = LocationRequest.create();
         request.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+
         LocationCallback callback = new LocationCallback() {
             @Override
             public void onLocationResult(LocationResult locationResult) {
@@ -91,8 +92,8 @@ public class LocationRepo {
         new Timer().schedule(new TimerTask() {
             @Override
             public void run() {
+                locationProvider.removeLocationUpdates(callback);
                 if (LocationUtils.isLocationMissing()) {
-                    locationProvider.removeLocationUpdates(callback);
                     new Handler(Looper.getMainLooper()).post(() -> updateWithLocationManager());
                 }
             }
@@ -123,10 +124,12 @@ public class LocationRepo {
         new Timer().schedule(new TimerTask() {
             @Override
             public void run() {
-                if (LocationUtils.isLocationMissing()) locationManager.removeUpdates(listener);
-                placeLiveData.postValue(
-                        Resource.error(context.getString(R.string.msg_cant_find_location), null)
-                );
+                locationManager.removeUpdates(listener);
+                if (LocationUtils.isLocationMissing()) {
+                    placeLiveData.postValue(
+                            Resource.error(context.getString(R.string.msg_cant_find_location), null)
+                    );
+                }
             }
         }, 4000);
 
@@ -159,7 +162,7 @@ public class LocationRepo {
 
                     @Override
                     public void onError(Throwable e) {
-                        Timber.d("GeneralLogKey: " + e);
+                        Timber.d("GeneralLogKey onError: " + e);
                         placeLiveData.setValue(Resource.error(e.getLocalizedMessage(), null));
                     }
                 });

@@ -25,9 +25,8 @@ public class HourlyAdapter extends RecyclerView.Adapter<HourlyAdapter.ViewHolder
     private ArrayList<SingleWeather> mWeatherDataList;
 
     public HourlyAdapter(List<SingleWeather> weatherList) {
-        if (!weatherList.isEmpty())
-            this.mWrappingDayWeather = weatherList.get(0);
-        this.mWeatherDataList = (ArrayList<SingleWeather>) weatherList;
+        if (!weatherList.isEmpty()) mWrappingDayWeather = weatherList.get(0);
+        mWeatherDataList = (ArrayList<SingleWeather>) weatherList;
     }
 
     @NonNull
@@ -71,10 +70,8 @@ public class HourlyAdapter extends RecyclerView.Adapter<HourlyAdapter.ViewHolder
 
     @Override
     public int getItemViewType(int position) {
-        if (position == 0)
-            return DAY_DETAILS_ITEM_VIEW_TYPE;
-        else
-            return HOUR_ITEM_VIEW_TYPE;
+        if (position == 0) return DAY_DETAILS_ITEM_VIEW_TYPE;
+        else return HOUR_ITEM_VIEW_TYPE;
     }
 
     @Override

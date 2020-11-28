@@ -16,7 +16,7 @@
 
     <item
         android:bottom="210dp"
-        android:drawable="@drawable/ic_launcher"
+        android:drawable="@drawable/ic_splash"
         android:gravity="center"
         android:left="100dp"
         android:right="100dp"

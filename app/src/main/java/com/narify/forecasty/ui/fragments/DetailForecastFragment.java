@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.narify.forecasty.R;
 import com.narify.forecasty.models.SingleWeather;
@@ -27,6 +28,7 @@ public class DetailForecastFragment extends Fragment {
 
     public static boolean removeFragmentToUpdate = false;
     private HourlyAdapter mAdapter;
+    private TextView textViewEmptyList;
     private FragmentActivity mActivity;
 
     @Override
@@ -48,6 +50,16 @@ public class DetailForecastFragment extends Fragment {
         return rootView;
     }
 
+    private void setupRecyclerView(View rootView) {
+        RecyclerView mWeatherRecyclerView = rootView.findViewById(R.id.rv_weather_details_list);
+        mWeatherRecyclerView.setLayoutManager(new LinearLayoutManager(mActivity));
+        mWeatherRecyclerView.setHasFixedSize(true);
+        mAdapter = new HourlyAdapter(new ArrayList<>());
+        mWeatherRecyclerView.setAdapter(mAdapter);
+
+        textViewEmptyList = rootView.findViewById(R.id.tv_empty_hourly_forecasts);
+    }
+
     private void setupViewModel() {
         // Instantiate ViewModel shared between master and detail fragments (Daily and Detail fragments)
         MasterDetailViewModel sharedViewModel =
@@ -58,13 +70,6 @@ public class DetailForecastFragment extends Fragment {
                 .observe(getViewLifecycleOwner(), this::setAdapterListFromWrappingDay);
     }
 
-    private void setupRecyclerView(View rootView) {
-        RecyclerView mWeatherRecyclerView = rootView.findViewById(R.id.rv_weather_details_list);
-        mWeatherRecyclerView.setLayoutManager(new LinearLayoutManager(mActivity));
-        mWeatherRecyclerView.setHasFixedSize(true);
-        mAdapter = new HourlyAdapter(new ArrayList<>());
-        mWeatherRecyclerView.setAdapter(mAdapter);
-    }
 
     private void setAdapterListFromWrappingDay(SingleWeather weatherDay) {
         if (weatherDay != null) {
@@ -72,6 +77,9 @@ public class DetailForecastFragment extends Fragment {
             dayDetailWeatherList.add(weatherDay);
             dayDetailWeatherList.addAll(weatherDay.getHoursList());
             mAdapter.setList(dayDetailWeatherList);
+            // Show text if no hourly forecasts in the adapter
+            if (dayDetailWeatherList.size() <= 1) textViewEmptyList.setVisibility(View.VISIBLE);
+            else textViewEmptyList.setVisibility(View.GONE);
         }
     }
 

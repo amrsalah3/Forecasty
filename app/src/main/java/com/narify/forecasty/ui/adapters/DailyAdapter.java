@@ -69,10 +69,8 @@ public class DailyAdapter extends RecyclerView.Adapter<DailyAdapter.ViewHolder> 
 
     @Override
     public int getItemViewType(int position) {
-        if (position == 0)
-            return TODAY_ITEM_VIEW_TYPE;
-        else
-            return FUTURE_DAY_ITEM_VIEW_TYPE;
+        if (position == 0) return TODAY_ITEM_VIEW_TYPE;
+        else return FUTURE_DAY_ITEM_VIEW_TYPE;
     }
 
     @Override
@@ -94,8 +92,8 @@ public class DailyAdapter extends RecyclerView.Adapter<DailyAdapter.ViewHolder> 
     }
 
     class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        WeatherTodayItemBinding mTodayBinding;
-        WeatherItemBinding mBinding;
+        private WeatherTodayItemBinding mTodayBinding;
+        private WeatherItemBinding mBinding;
 
         ViewHolder(@NonNull View itemView, int viewType) {
             super(itemView);
