@@ -3,9 +3,11 @@
     <string name="app_name">الطقس</string>
     <!-- Settings or Preference activity name -->
     <string name="settings_activity_title">الإعدادات</string>
+    <string name="about_activity_title">عن التطبيق</string>
 
     <!-- Action settings menu button -->
     <string name="settings">@string/settings_activity_title</string>
+    <string name="about">@string/about_activity_title</string>
 
     <!-- Preference unit system title -->
     <string name="pref_unit_title">نظام وحدات القياس</string>
@@ -98,5 +100,11 @@
     <string name="msg_no_connection">لا يوجد إتصال بالإنترنت</string>
     <string name="msg_cant_find_location">فشل في تحديد الموقع</string>
     <string name="no_hourly_forecasts_yet">لا يوجد توقعات بالساعة حتى الآن</string>
+
+    <string name="about_developer">تم تطوير هذا التطبيق بواسطة عمرو صلاح الدين عبد الهادي.</string>
+    <string name="about_narify_apps_link">تطبيقات Narify على سوق جوجل بلاي:
+        \nhttps://play.google.com/store/apps/developer?id=Narify</string>
+    <string name="about_privacy_policy">سياسة الخصوصية:
+        \nhttps://github.com/amrsalah3/Forecasty/blob/master/PRIVACY_POLICY.md</string>
 
 </resources>

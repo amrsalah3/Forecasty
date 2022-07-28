@@ -13,21 +13,20 @@
         tools:node="remove" />
 
     <application
-        android:name="com.narify.forecasty.ForecastyApplication"
+        android:name=".ForecastyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup">
-
         <activity
-            android:name="com.narify.forecasty.ui.activities.PickPlaceActivity"
+            android:name=".ui.activities.PickPlaceActivity"
             android:launchMode="singleTop" />
         <activity
-            android:name="com.narify.forecasty.ui.activities.SplashActivity"
+            android:name=".ui.activities.SplashActivity"
             android:launchMode="singleTop"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -37,13 +36,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.narify.forecasty.ui.activities.SettingsActivity"
+            android:name=".ui.activities.SettingsActivity"
             android:label="@string/settings_activity_title"
             android:launchMode="singleTop"
-            android:parentActivityName="com.narify.forecasty.ui.activities.MainActivity" />
+            android:parentActivityName=".ui.activities.MainActivity" />
         <activity
-            android:name="com.narify.forecasty.ui.activities.MainActivity"
+            android:name=".ui.activities.MainActivity"
             android:launchMode="singleTop" />
+        <activity android:name=".ui.activities.AboutActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

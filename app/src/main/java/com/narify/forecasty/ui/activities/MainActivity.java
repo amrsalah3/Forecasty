@@ -1,18 +1,18 @@
 package com.narify.forecasty.ui.activities;
 
+import dagger.hilt.android.AndroidEntryPoint;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.narify.forecasty.R;
-import com.narify.forecasty.workers.ForecastWorkerScheduler;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import dagger.hilt.android.AndroidEntryPoint;
+
+import com.narify.forecasty.R;
+import com.narify.forecasty.workers.ForecastWorkerScheduler;
 
 @AndroidEntryPoint
 public class MainActivity extends AppCompatActivity {
@@ -51,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.action_location_management:
                 startActivity(new Intent(this, PickPlaceActivity.class));
+                return true;
+            case R.id.action_about:
+                startActivity(new Intent(this, AboutActivity.class));
                 return true;
         }
         return super.onOptionsItemSelected(item);
