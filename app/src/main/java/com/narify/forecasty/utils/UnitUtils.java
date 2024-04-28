@@ -1,13 +1,12 @@
 package com.narify.forecasty.utils;
 
-import com.narify.forecasty.R;
-import com.narify.forecasty.models.SingleWeather;
-import com.narify.forecasty.singletons.AppResources;
-
+import javax.inject.Singleton;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.inject.Singleton;
+import com.narify.forecasty.R;
+import com.narify.forecasty.models.SingleWeather;
+import com.narify.forecasty.singletons.AppResources;
 
 @Singleton
 public class UnitUtils {
@@ -46,7 +45,7 @@ public class UnitUtils {
      * @return a string contain only the symbol of the pressure
      */
     public static String getPressureUnit() {
-        return AppResources.get().getString(R.string.symbol_kPa);
+        return AppResources.get().getString(R.string.symbol_hPa);
     }
 
     /**

@@ -1,13 +1,13 @@
 package com.narify.forecasty.utils;
 
+import java.util.Calendar;
+
 import android.graphics.drawable.Drawable;
 
 import com.narify.forecasty.R;
 import com.narify.forecasty.data.local.DataManager;
 import com.narify.forecasty.models.SingleWeather;
 import com.narify.forecasty.singletons.AppResources;
-
-import java.util.Calendar;
 
 public class WeatherFormat {
 
@@ -19,13 +19,13 @@ public class WeatherFormat {
     }
 
     public static String[] getFullCondition(SingleWeather weather) {
-        return WeatherConditionUtils.convertOwmToLocaleCondition(
-                weather.getMainCondition(), weather.getDescription()
-        );
+        int weatherCode = Integer.parseInt(weather.getMainCondition());
+        return OpenMeteoWeatherConditionUtils.getConditionAndDescription(weatherCode);
     }
 
     public static String getMainCondition(SingleWeather weather) {
-        return WeatherConditionUtils.convertOwmMainToLocaleCondition(weather.getMainCondition());
+        int weatherCode = Integer.parseInt(weather.getMainCondition());
+        return OpenMeteoWeatherConditionUtils.getWeatherCondition(weatherCode);
     }
 
     public static String getTemperature(SingleWeather weather) {
@@ -50,9 +50,9 @@ public class WeatherFormat {
         } else {
             isNight = DateUtils.isNight(weather.getTimeInMillis(), sunset);
         }
-        int iconResId = IconUtils.getWeatherIconResId(weather.getMainCondition(),
-                weather.getDescription(),
-                isNight);
+
+        int weatherCode = Integer.parseInt(weather.getMainCondition());
+        int iconResId = OpenMeteoIconUtils.getWeatherIconResId(weatherCode, isNight);
 
         return AppResources.get().getDrawable(iconResId);
     }

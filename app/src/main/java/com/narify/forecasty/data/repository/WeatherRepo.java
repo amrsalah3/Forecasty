@@ -1,49 +1,49 @@
 package com.narify.forecasty.data.repository;
 
-import com.narify.forecasty.data.local.DataManager;
-import com.narify.forecasty.data.local.db.WeatherDao;
-import com.narify.forecasty.data.remote.openweathermap.OpenWeatherClient;
-import com.narify.forecasty.data.remote.openweathermap.OpenWeatherMapper;
-import com.narify.forecasty.models.SingleWeather;
-import com.narify.forecasty.utils.DateUtils;
-import com.narify.forecasty.utils.UnitUtils;
-
-import java.util.List;
-
 import javax.inject.Inject;
 import javax.inject.Singleton;
+import java.util.List;
 
-import androidx.lifecycle.LiveData;
 import io.reactivex.rxjava3.annotations.NonNull;
 import io.reactivex.rxjava3.core.SingleObserver;
 import io.reactivex.rxjava3.disposables.Disposable;
 import io.reactivex.rxjava3.schedulers.Schedulers;
 import timber.log.Timber;
 
+import androidx.lifecycle.LiveData;
+
+import com.narify.forecasty.data.local.DataManager;
+import com.narify.forecasty.data.local.db.WeatherDao;
+import com.narify.forecasty.data.remote.openmeteo.OpenMeteoClient;
+import com.narify.forecasty.data.remote.openmeteo.OpenMeteoMapper;
+import com.narify.forecasty.models.SingleWeather;
+import com.narify.forecasty.utils.DateUtils;
+import com.narify.forecasty.utils.UnitUtils;
+
 @Singleton
 public class WeatherRepo {
     public LiveData<List<SingleWeather>> weatherLiveData;
-    private OpenWeatherClient openWeatherClient;
+    private OpenMeteoClient openMeteoClient;
     private WeatherDao weatherDao;
-    private OpenWeatherMapper mapper;
+    private OpenMeteoMapper mapper;
 
     @Inject
-    public WeatherRepo(OpenWeatherClient openWeatherClient, WeatherDao weatherDao,
-                       OpenWeatherMapper openWeatherMapper) {
-        this.openWeatherClient = openWeatherClient;
+    public WeatherRepo(OpenMeteoClient openMeteoClient,
+                       WeatherDao weatherDao,
+                       OpenMeteoMapper openMeteoMapper) {
+        this.openMeteoClient = openMeteoClient;
         this.weatherDao = weatherDao;
-        this.mapper = openWeatherMapper;
+        this.mapper = openMeteoMapper;
         this.weatherLiveData = weatherDao.getAllWeather();
     }
 
     public synchronized LiveData<List<SingleWeather>> getWeather() {
         if (!isSynced()) refreshWeather();
-
         return weatherLiveData;
     }
 
     public synchronized void refreshWeather() {
-        openWeatherClient.getWeather()
+        openMeteoClient.getWeather()
                 .map(mapper::mapToWeatherList)
                 .subscribeOn(Schedulers.io())
                 .observeOn(Schedulers.io())

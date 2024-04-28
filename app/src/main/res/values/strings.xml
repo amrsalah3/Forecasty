@@ -30,7 +30,7 @@
     <string name="symbol_fahrenheit">°F</string>
     <string name="symbol_metres_per_second">m/s</string>
     <string name="symbol_miles_per_hour">mi/h</string>
-    <string name="symbol_kPa">kPa</string>
+    <string name="symbol_hPa">hPa</string>
     <string name="symbol_humidity">%</string>
 
     <!-- Days -->
@@ -53,9 +53,9 @@
     <string name="clear">Clear</string>
     <string name="clear_sky">clear sky</string>
     <string name="Clouds">Clouds</string>
-    <string name="few_clouds">few clouds</string>
+    <string name="mainly_clear">mainly clear</string>
     <string name="overcast_clouds">overcast clouds</string>
-    <string name="broken_clouds">broken clouds</string>
+    <string name="partly_cloudy">partly cloudy</string>
     <string name="drizzle">Drizzle</string>
     <string name="light_drizzle">light drizzle</string>
     <string name="heavy_drizzle">heavy drizzle</string>
@@ -107,5 +107,10 @@
         \nhttps://play.google.com/store/apps/developer?id=Narify</string>
     <string name="about_privacy_policy"> Privacy Policy:
         \nhttps://github.com/amrsalah3/Forecasty/blob/master/PRIVACY_POLICY.md</string>
+    <string name="about_weather_data_source"> Weather data by:
+        \nhttps://open-meteo.com</string>
+    <string name="about_notes"> Note:
+        \nSome manipulations are made to the weather data to simplify the app for better user experience.
+        Also, the data displayed in the app are just forecast or approximations which can be correct or wrong.</string>
 
 </resources>

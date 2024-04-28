@@ -30,7 +30,7 @@
     <string name="symbol_fahrenheit">°ف</string>
     <string name="symbol_metres_per_second">م/ث</string>
     <string name="symbol_miles_per_hour">ميل/س</string>
-    <string name="symbol_kPa">ك.باسكال</string>
+    <string name="symbol_hPa">هـ.باسكال</string>
     <string name="symbol_humidity">%</string>
 
     <!-- Days -->
@@ -53,9 +53,9 @@
     <string name="clear">صافي</string>
     <string name="clear_sky">سماء صافية</string>
     <string name="Clouds">غائم</string>
-    <string name="few_clouds">سحاب قليل</string>
+    <string name="mainly_clear">صافي تقريباً</string>
     <string name="overcast_clouds">غائم</string>
-    <string name="broken_clouds">سحاب متقطع</string>
+    <string name="partly_cloudy">غائم جزئياً</string>
     <string name="drizzle">قطرات أمطار</string>
     <string name="light_drizzle">قطرات خفيف</string>
     <string name="heavy_drizzle">قطرات شديده</string>
@@ -106,5 +106,10 @@
         \nhttps://play.google.com/store/apps/developer?id=Narify</string>
     <string name="about_privacy_policy">سياسة الخصوصية:
         \nhttps://github.com/amrsalah3/Forecasty/blob/master/PRIVACY_POLICY.md</string>
+    <string name="about_weather_data_source"> مصدر معلومات الطقس:
+        \nhttps://open-meteo.com</string>
+    <string name="about_notes"> ملحوظه:
+        \nتم تعديل بعض المعلومات بخصوص الطقس لتناسب التطبيق وتبسيطه ولتوفير تجربة استخدام جيده.
+        يرجى التنويه ان معلومات الطقس في هذا التطبيق هي فقط توقعات او تقريبات والتي يمكن ان تكون صائبه او خاطئه.</string>
 
 </resources>

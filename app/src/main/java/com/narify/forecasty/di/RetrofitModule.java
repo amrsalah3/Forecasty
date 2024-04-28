@@ -1,8 +1,5 @@
 package com.narify.forecasty.di;
 
-import com.narify.forecasty.data.remote.geonames.GeoNamesService;
-import com.narify.forecasty.data.remote.openweathermap.OpenWeatherService;
-
 import javax.inject.Singleton;
 
 import dagger.Module;
@@ -12,6 +9,9 @@ import dagger.hilt.android.components.ApplicationComponent;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
+
+import com.narify.forecasty.data.remote.geonames.GeoNamesService;
+import com.narify.forecasty.data.remote.openmeteo.OpenMeteoService;
 
 @Module
 @InstallIn(ApplicationComponent.class)
@@ -28,16 +28,15 @@ public class RetrofitModule {
                 .create(GeoNamesService.class);
     }
 
+
     @Singleton
     @Provides
-    public static OpenWeatherService provideOpenWeatherService() {
+    public static OpenMeteoService provideOpenMeteoService() {
         return new Retrofit.Builder()
-                .baseUrl(OpenWeatherService.BASE_URL)
+                .baseUrl(OpenMeteoService.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava3CallAdapterFactory.create())
                 .build()
-                .create(OpenWeatherService.class);
+                .create(OpenMeteoService.class);
     }
-
-
 }

@@ -33,6 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_developed_by" />
 
     <TextView
+        android:id="@+id/tv_privacy_policy"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -44,4 +45,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_play_store_link" />
+
+    <TextView
+        android:id="@+id/tv_weather_data_source"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/about_weather_data_source"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_privacy_policy" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/about_notes"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_weather_data_source" />
 </androidx.constraintlayout.widget.ConstraintLayout>
