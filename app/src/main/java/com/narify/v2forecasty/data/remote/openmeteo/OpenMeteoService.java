@@ -7,7 +7,7 @@ import retrofit2.http.Query;
 import com.narify.v2forecasty.models.OpenMeteoWeatherResponse;
 
 public interface OpenMeteoService {
-    String BASE_URL = "https://api.open-meteo.com/v1/";
+    String BASE_URL = "http://api.open-meteo.com/v1/";
 
     @GET("forecast?daily=weather_code,temperature_2m_max,temperature_2m_min,sunrise,sunset," +
             "precipitation_probability_max,wind_speed_10m_max" +
